@@ -1,0 +1,11 @@
+#ignore
+Debug/*
+Release/*
+VektoriaApp/Debug/
+VektoriaApp/Release/
+VektoriaApp/x64/
+*.tlog
+*.opendb
+*.opensdf
+VektoriaApp.sdf
+Lib/

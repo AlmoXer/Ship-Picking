@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\Element">
+      <UniqueIdentifier>{c1bfb822-0367-4ae0-a219-27b610af7974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Element\Selectable">
+      <UniqueIdentifier>{a6e42faa-0f3b-45e2-b6d2-e99c500663f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Element\Selectable\Ship">
+      <UniqueIdentifier>{efd09638-0a48-47f1-95c5-1bd95ba32600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Element\Selectable\Weapon">
+      <UniqueIdentifier>{bd80066c-5d54-4bbe-86f3-69d74bf731ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Element">
+      <UniqueIdentifier>{566daaab-32d2-4a65-86a0-fd354fcdf18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Element\Selectable">
+      <UniqueIdentifier>{d9acc028-2fcf-475e-8f24-90c71e9b7cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Element\Selectable\Weapon">
+      <UniqueIdentifier>{e19aab7d-5324-40c6-aad2-5fc5da056c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Element\Selectable\Ship">
+      <UniqueIdentifier>{28d60bcf-259c-484e-89d2-591c8773cf3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Element\EnvironmentObject">
+      <UniqueIdentifier>{b491f723-c827-4876-be46-6521c76f08f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Element\EnvironmentObject">
+      <UniqueIdentifier>{e1f06225-af5d-4ad5-94d6-797fcf662875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Network">
+      <UniqueIdentifier>{36b1f444-f097-4a78-bed7-16865d33996a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Network">
+      <UniqueIdentifier>{ee4a199a-43be-449e-8ab2-30ede2cd4390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Element\Projectile">
+      <UniqueIdentifier>{7d270924-36a2-442f-a3d9-a6bcb8bffbe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Element\Projectile">
+      <UniqueIdentifier>{e95193bc-9d2c-4dd4-9359-2679216f71d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Singleton">
+      <UniqueIdentifier>{6c6dff01-40e4-4fca-8cf1-55a1fa46e49a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Singleton">
+      <UniqueIdentifier>{45134b56-5e5a-41f2-a9f1-b38578ba34d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Multiplayer">
+      <UniqueIdentifier>{fab5e3df-e4b9-457c-bf00-66a761ea8516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Multiplayer">
+      <UniqueIdentifier>{1ccb5af5-0b3b-4cc5-aea4-f18f0ddad948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Actions">
+      <UniqueIdentifier>{10b6c94d-792b-41a6-97de-5cd6c45881df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Animation">
+      <UniqueIdentifier>{37ac3710-1837-46d3-95ff-c3309a3959e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Animation">
+      <UniqueIdentifier>{d665f13b-c85e-4912-a015-7a95dad8abd5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentObject.h">
+      <Filter>Headerdateien\Element\EnvironmentObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Desk.h">
+      <Filter>Headerdateien\Element\EnvironmentObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.h">
+      <Filter>Headerdateien\Element\Selectable\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLaser.h">
+      <Filter>Headerdateien\Element\Selectable\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Headerdateien\Element\Selectable\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Movement.h">
+      <Filter>Headerdateien\Element\Selectable\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Headerdateien\Element\Selectable\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="TestShip.h">
+      <Filter>Headerdateien\Element\Selectable\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Headerdateien\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="Selectable.h">
+      <Filter>Headerdateien\Element\Selectable</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMaster.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IClassID.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TestClass.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Headerdateien\Element\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPlasma.h">
+      <Filter>Headerdateien\Element\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoLoader.h">
+      <Filter>Headerdateien\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialLoader.h">
+      <Filter>Headerdateien\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="IDDistributor.h">
+      <Filter>Headerdateien\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipHandler.h">
+      <Filter>Headerdateien\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileHandler.h">
+      <Filter>Headerdateien\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipBuilder.h">
+      <Filter>Headerdateien\Element\Selectable\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironmentLoader.h">
+      <Filter>Headerdateien\Element\EnvironmentObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Headerdateien\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveAction.h">
+      <Filter>Headerdateien\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretMovement.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="DroneCarrier.h">
+      <Filter>Headerdateien\Element\Selectable\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="FightDrone.h">
+      <Filter>Headerdateien\Element\Selectable\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShip.h">
+      <Filter>Headerdateien\Element\Selectable\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Dock.h">
+      <Filter>Headerdateien\Element\Selectable\Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension.h">
+      <Filter>Headerdateien\Element\Selectable</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugHelper.h">
+      <Filter>Headerdateien\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Animation.h">
+      <Filter>Headerdateien\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\AnimationHandler.h">
+      <Filter>Headerdateien\Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>Quelldateien\Element</Filter>
+    </ClCompile>
+    <ClCompile Include="Selectable.cpp">
+      <Filter>Quelldateien\Element\Selectable</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Quelldateien\Element\Selectable\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="TestShip.cpp">
+      <Filter>Quelldateien\Element\Selectable\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Movement.cpp">
+      <Filter>Quelldateien\Element\Selectable\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser.cpp">
+      <Filter>Quelldateien\Element\Selectable\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLaser.cpp">
+      <Filter>Quelldateien\Element\Selectable\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Quelldateien\Element\Selectable\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Desk.cpp">
+      <Filter>Quelldateien\Element\EnvironmentObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentObject.cpp">
+      <Filter>Quelldateien\Element\EnvironmentObject</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="VektoriaApp.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMaster.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="IClassID.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TestClass.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Quelldateien\Element\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlasma.cpp">
+      <Filter>Quelldateien\Element\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipHandler.cpp">
+      <Filter>Quelldateien\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoLoader.cpp">
+      <Filter>Quelldateien\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialLoader.cpp">
+      <Filter>Quelldateien\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="IDDistributor.cpp">
+      <Filter>Quelldateien\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipBuilder.cpp">
+      <Filter>Quelldateien\Element\Selectable\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileHandler.cpp">
+      <Filter>Quelldateien\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironmentLoader.cpp">
+      <Filter>Quelldateien\Element\EnvironmentObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Quelldateien\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveAction.cpp">
+      <Filter>Quelldateien\Multiplayer</Filter>
+    </ClCompile>
+    <ClCompile Include="TurretMovement.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="DroneCarrier.cpp">
+      <Filter>Quelldateien\Element\Selectable\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="FightDrone.cpp">
+      <Filter>Quelldateien\Element\Selectable\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShip.cpp">
+      <Filter>Quelldateien\Element\Selectable\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Dock.cpp">
+      <Filter>Quelldateien\Element\Selectable\Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension.cpp">
+      <Filter>Quelldateien\Element\Selectable</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugHelper.cpp">
+      <Filter>Quelldateien\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Animation.cpp">
+      <Filter>Quelldateien\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\AnimationHandler.cpp">
+      <Filter>Quelldateien\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders.hlsl">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+    <None Include="shadowmap.hlsl">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+    <None Include="res\VektoriaTest.ico">
+      <Filter>Ressourcendateien</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VektoriaApp.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
